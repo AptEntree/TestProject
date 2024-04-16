@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shape com cantos externos quadrados -->
+    <item >
+        <shape android:shape="rectangle">
+            <stroke android:color="@android:color/darker_gray" android:width="10dp"/> <!-- Cor de fundo -->
+            <corners android:radius="0dp"/> <!-- Cantos externos quadrados -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:color="@android:color/darker_gray" android:width="10dp"/>
+            <corners android:radius="24dp"/>
+        </shape>
+    </item>
+</layer-list>
